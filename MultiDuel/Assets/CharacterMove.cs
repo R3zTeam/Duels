@@ -6,8 +6,6 @@ public class CharacterMove : MonoBehaviour {
     public float moveSpeed;
     public float maxSpeed;
 
-    public GameObject deathParticles;
-    public GameObject playerRestPoint;
 
     private Vector3 spawnpoint;
     public int dss;
