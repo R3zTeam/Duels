@@ -10,7 +10,7 @@ public class CharacterMove : MonoBehaviour {
     public GameObject playerRestPoint;
 
     private Vector3 spawnpoint;
-
+    public int dss;
     private Vector3 userInput;
 
     float delaytime = 1.0f;
@@ -26,7 +26,7 @@ public class CharacterMove : MonoBehaviour {
 
     void Update()
     {
-
+        
 
         if (delaytime >= 0)
         {
